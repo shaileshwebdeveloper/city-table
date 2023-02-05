@@ -1,166 +1,166 @@
 {
   "data": [
     {
-      "id" : "1",
+      "id": "1",
       "city": "MARIEHAMN",
       "country": "Åland Islands",
-      "population" : "1020202"
+      "population": "1020202"
     },
     {
-      "id" : "2",
+      "id": "2",
       "city": "Durrës",
       "country": "Albania",
-      "population" : "1020203"
+      "population": "1020203"
     },
     {
-      "id" : "3",
+      "id": "3",
       "city": "TIRANA",
       "country": "Albania",
-      "population" : "102002"
+      "population": "102002"
     },
     {
-      "id" : "4",
+      "id": "4",
       "city": "Annaba",
       "country": "Algeria",
-      "population" : "120202"
+      "population": "120202"
     },
     {
-      "id" : "5",
+      "id": "5",
       "city": "Batna",
       "country": "Algeria",
-      "population" : "20202"
+      "population": "20202"
     },
     {
-      "id" : "6",
+      "id": "6",
       "city": "Béchar",
       "country": "Algeria",
-      "population" : "220202"
+      "population": "220202"
     },
     {
-      "id" : "7",
+      "id": "7",
       "city": "Bejaïa",
       "country": "Algeria",
-      "population" : "22202"
+      "population": "22202"
     },
     {
-      "id" : "8",
+      "id": "8",
       "city": "Beskra",
       "country": "Algeria",
-      "population" : "1020202"
+      "population": "1020202"
     },
     {
-      "id" : "9",
+      "id": "9",
       "city": "Bordj Bou Arreridj",
       "country": "Algeria",
-      "population" : "1020222"
+      "population": "1020222"
     },
     {
-      "id" : "15",
+      "id": "15",
       "city": "Bordj el Kiffan",
       "country": "Algeria",
-      "population" : "1222022"
+      "population": "1222022"
     },
     {
-      "id" : "13",
+      "id": "13",
       "city": "Ech Cheliff (El Asnam)",
       "country": "Algeria",
-      "population" : "10"
+      "population": "10"
     },
     {
-      "id" : "14",
+      "id": "14",
       "city": "El Boulaïda (Blida)",
       "country": "Algeria",
-      "population" : "1022"
+      "population": "1022"
     },
     {
-      "id" : "15",
+      "id": "15",
       "city": "ALGIERS (EL DJAZAIR)",
       "country": "Algeria",
-      "population" : "20202"
+      "population": "20202"
     },
     {
-      "id" : "17",
+      "id": "17",
       "city": "El Djelfa",
       "country": "Algeria",
-      "population" : "202"
+      "population": "202"
     },
     {
-      "id" : "16",
+      "id": "16",
       "city": "El Eulma",
       "country": "Algeria",
-      "population" : "20"
+      "population": "20"
     },
     {
-      "id" : "19",
+      "id": "19",
       "city": "El Wad",
       "country": "Algeria",
-      "population" : "103"
+      "population": "103"
     },
     {
-      "id" : "20",
+      "id": "20",
       "city": "Ghardaïa",
       "country": "Algeria",
-      "population" : "1052"
+      "population": "1052"
     },
     {
-      "id" : "22",
+      "id": "22",
       "city": "Ghilizane",
       "country": "Algeria",
-      "population" : "105602"
+      "population": "105602"
     },
     {
-      "id" : "23",
+      "id": "23",
       "city": "Guelma",
       "country": "Algeria",
-      "population" : "109"
+      "population": "109"
     },
     {
-      "id" : "24",
+      "id": "24",
       "city": "Jijel",
       "country": "Algeria",
-      "population" : "107"
+      "population": "107"
     },
     {
-      "id" : "25",
+      "id": "25",
       "city": "Lemdiyya (Medea)",
       "country": "Algeria",
-      "population" : "106"
+      "population": "106"
     },
     {
-      "id" : "26",
+      "id": "26",
       "city": "Mestghanem (Mostaganem)",
       "country": "Algeria",
-      "population" : "1010"
+      "population": "1010"
     },
     {
-      "id" : "27",
+      "id": "27",
       "city": "M'Sila",
       "country": "Algeria",
-      "population" : "1013"
+      "population": "1013"
     },
     {
-      "id" : "29",
+      "id": "29",
       "city": "Qacentina (Constantine)",
       "country": "Algeria",
-      "population" : "10789"
+      "population": "10789"
     },
     {
-      "id" : "30",
+      "id": "30",
       "city": "Saïda",
       "country": "Algeria",
-      "population" : "1099"
+      "population": "1099"
     },
     {
-      "id" : "33",
+      "id": "33",
       "city": "Sidi-bel-Abbès",
       "country": "Algeria",
-      "population" : "1044"
+      "population": "1044"
     },
     {
-      "id" : "36",
+      "id": "36",
       "city": "Skikda",
       "country": "Algeria",
-      "population" : "1055"
+      "population": "1055"
     }
   ]
 }

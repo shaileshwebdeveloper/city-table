@@ -1,7 +1,5 @@
-import React from 'react'
+import React from "react";
 
 export const AuthContext = () => {
-  return (
-    <div>AuthContext</div>
-  )
-}
+  return <div>AuthContext</div>;
+};
