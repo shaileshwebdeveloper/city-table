@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { CityCard } from "../Components/CityCard";
+import { CityTable } from "../Components/CityTable";
 
-export const getCities = () => {
- return fetch("http://localhost:3004/data").then((r) => r.json());
+export const getCities = ({
+  sortByPopulation
+}) => {
+ return fetch(`http://localhost:3004/data?_sort=population&_order=${sortByPopulation}`).then((r) => r.json());
 };
 
 export const HomePage = () => {
@@ -11,9 +13,13 @@ export const HomePage = () => {
 
   const [data, setData] = useState([]);
 
+  const [sortByPopulation, setSortByPopulation] = useState("asc")
+
   useEffect(() => {
     setLoading(true);
-    getCities()
+    getCities({
+      sortByPopulation
+    })
       .then((r) => {
         setLoading(false)
         setData(r)
@@ -22,27 +28,21 @@ export const HomePage = () => {
         setLoading(false);
         console.log(e);
       });
-  }, []);
+  }, [sortByPopulation]);
 
   if (loading) {
     return <h4>Loading...</h4>;
   }
 
-     console.log("data", data);
 
 
   return <div>
-        <table>
-        <thead>
-            <th>ID</th>
-            <th>City</th>
-            <th>Population</th>
-            <th>Country</th>
-        </thead>
-         {data?.map((item) => {
-           return  <CityCard id={item.id} population={item.population} 
-           country={item.country} city={item.city}/>
-        })}
-        </table>
+       
+      <button onClick={() => setSortByPopulation(sortByPopulation  === "asc" ? "desc" : "asc")}>
+        {" "}
+        SHOW IN {sortByPopulation === "asc" ? "desc" : "asc"}</button>
+     <CityTable data={data} />
+
+
   </div>;
 };

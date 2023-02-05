@@ -1,7 +1,19 @@
 import React from 'react'
+import { CityRow } from './CityRow'
 
-export const CityTable = () => {
+export const CityTable = ({data}) => {
   return (
-    <div>CityTable</div>
+    <table>
+    <thead>
+        <th>ID</th>
+        <th>City</th>
+        <th>Population</th>
+        <th>Country</th>
+    </thead>
+     {data?.map((item) => {
+       return  <CityRow id={item.id} population={item.population} 
+       country={item.country} city={item.city}/>
+    })}
+    </table>
   )
 }
