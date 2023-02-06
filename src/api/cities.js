@@ -1,4 +1,4 @@
-export const getCities = ({ sortByPopulation, page=1, limit=5 }) => {
+export const getCities = ({ sortByPopulation, page = 1, limit = 5 }) => {
   return fetch(
     `http://localhost:3004/data?_sort=population&_order=${sortByPopulation}&_page=${page}&_limit=${limit}`
   ).then((r) => r.json());
